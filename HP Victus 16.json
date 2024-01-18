@@ -65,8 +65,8 @@
       ],
       "FanSpeedPercentageOverrides": [
         {
-          "FanSpeedPercentage": 0,
-          "FanSpeedValue": 255,
+          "FanSpeedPercentage": 20,
+          "FanSpeedValue": 51,
           "TargetOperation": "Write"
         }
       ]
@@ -136,8 +136,8 @@
       ],
       "FanSpeedPercentageOverrides": [
         {
-          "FanSpeedPercentage": 0,
-          "FanSpeedValue": 255,
+          "FanSpeedPercentage": 20,
+          "FanSpeedValue": 51,
           "TargetOperation": "Write"
         }
       ]
