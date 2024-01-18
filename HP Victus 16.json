@@ -3,7 +3,7 @@
   "Author": "Wind Slightly",
   "EcPollInterval": 1500,
   "ReadWriteWords": false,
-  "CriticalTemperature": 90,
+  "CriticalTemperature": 85,
   "FanConfigurations": [
     {
       "ReadRegister": 177,
