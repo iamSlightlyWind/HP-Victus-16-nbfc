@@ -9,7 +9,7 @@ The `HP Victus 16.json` file provides settings for controlling the fan speeds. I
 ## Usage
 
 1. Install NBFC on your system.
-2. Import the `HP Victus 16.json` file into NBFC (/usr/share/nbfc/configs/).
+2. Import the `HP Victus 16.json` file into NBFC (`/usr/share/nbfc/configs/`).
 
 ## Disclaimer
 
