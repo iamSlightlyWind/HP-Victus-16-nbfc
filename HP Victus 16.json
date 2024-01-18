@@ -17,7 +17,6 @@
       "FanSpeedResetValue": 255,
       "FanDisplayName": "CPU Fan",
       "TemperatureThresholds": [
-        [
           {
             "DownThreshold": 0,
             "UpThreshold": 45,
@@ -63,7 +62,6 @@
             "UpThreshold": 85,
             "FanSpeed": 100
           }
-        ]
       ],
       "FanSpeedPercentageOverrides": [
         {
@@ -128,7 +126,7 @@
         {
           "DownThreshold": 79,
           "UpThreshold": 85,
-          "FanSpeed": 80
+          "FanSpeed": 100
         }
       ],
       "FanSpeedPercentageOverrides": [
