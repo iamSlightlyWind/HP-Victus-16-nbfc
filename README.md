@@ -1,6 +1,6 @@
 # NBFC Configuration for HP Victus 16 Gaming
 
-This repository contains a custom NoteBook FanControl (NBFC) configuration for the HP Victus 16 Gaming notebook.
+This repository contains the NoteBook FanControl (NBFC) configuration for the HP Victus 16 Gaming notebook.
 
 ## Configuration Details
 
