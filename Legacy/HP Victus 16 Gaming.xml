@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
-<FanControlConfigV2 xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <NotebookModel>HP Victus 16 Gaming</NotebookModel>
-  <Author>Wind Slightly</Author>
+<FanControlConfigV2 xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <NotebookModel>HP Victus 16-e0xxx</NotebookModel>
+  <Author>slightlywind</Author>
   <EcPollInterval>1500</EcPollInterval>
   <ReadWriteWords>false</ReadWriteWords>
-  <CriticalTemperature>90</CriticalTemperature>
+  <CriticalTemperature>86</CriticalTemperature>
   <FanConfigurations>
     <FanConfiguration>
       <ReadRegister>177</ReadRegister>
@@ -19,48 +20,48 @@
       <FanDisplayName>CPU Fan</FanDisplayName>
       <TemperatureThresholds>
         <TemperatureThreshold>
-          <UpThreshold>0</UpThreshold>
           <DownThreshold>0</DownThreshold>
+          <UpThreshold>44</UpThreshold>
           <FanSpeed>0</FanSpeed>
         </TemperatureThreshold>
         <TemperatureThreshold>
-          <UpThreshold>50</UpThreshold>
           <DownThreshold>45</DownThreshold>
+          <UpThreshold>50</UpThreshold>
           <FanSpeed>10</FanSpeed>
         </TemperatureThreshold>
         <TemperatureThreshold>
-          <UpThreshold>55</UpThreshold>
           <DownThreshold>49</DownThreshold>
+          <UpThreshold>55</UpThreshold>
           <FanSpeed>15</FanSpeed>
         </TemperatureThreshold>
         <TemperatureThreshold>
-          <UpThreshold>60</UpThreshold>
           <DownThreshold>54</DownThreshold>
+          <UpThreshold>60</UpThreshold>
           <FanSpeed>25</FanSpeed>
         </TemperatureThreshold>
         <TemperatureThreshold>
-          <UpThreshold>65</UpThreshold>
           <DownThreshold>59</DownThreshold>
+          <UpThreshold>65</UpThreshold>
           <FanSpeed>35</FanSpeed>
         </TemperatureThreshold>
         <TemperatureThreshold>
-          <UpThreshold>70</UpThreshold>
           <DownThreshold>64</DownThreshold>
+          <UpThreshold>70</UpThreshold>
           <FanSpeed>50</FanSpeed>
         </TemperatureThreshold>
         <TemperatureThreshold>
-          <UpThreshold>75</UpThreshold>
           <DownThreshold>69</DownThreshold>
+          <UpThreshold>75</UpThreshold>
           <FanSpeed>65</FanSpeed>
         </TemperatureThreshold>
         <TemperatureThreshold>
-          <UpThreshold>80</UpThreshold>
           <DownThreshold>74</DownThreshold>
+          <UpThreshold>80</UpThreshold>
           <FanSpeed>80</FanSpeed>
         </TemperatureThreshold>
         <TemperatureThreshold>
-          <UpThreshold>82</UpThreshold>
           <DownThreshold>79</DownThreshold>
+          <UpThreshold>85</UpThreshold>
           <FanSpeed>100</FanSpeed>
         </TemperatureThreshold>
       </TemperatureThresholds>
@@ -85,49 +86,49 @@
       <FanDisplayName>GPU Fan</FanDisplayName>
       <TemperatureThresholds>
         <TemperatureThreshold>
-          <UpThreshold>0</UpThreshold>
           <DownThreshold>0</DownThreshold>
+          <UpThreshold>44</UpThreshold>
           <FanSpeed>0</FanSpeed>
         </TemperatureThreshold>
         <TemperatureThreshold>
-          <UpThreshold>50</UpThreshold>
           <DownThreshold>45</DownThreshold>
+          <UpThreshold>50</UpThreshold>
           <FanSpeed>10</FanSpeed>
         </TemperatureThreshold>
         <TemperatureThreshold>
-          <UpThreshold>55</UpThreshold>
           <DownThreshold>49</DownThreshold>
-          <FanSpeed>15</FanSpeed>
+          <UpThreshold>55</UpThreshold>
+          <FanSpeed>20</FanSpeed>
         </TemperatureThreshold>
         <TemperatureThreshold>
-          <UpThreshold>60</UpThreshold>
           <DownThreshold>54</DownThreshold>
-          <FanSpeed>25</FanSpeed>
+          <UpThreshold>60</UpThreshold>
+          <FanSpeed>30</FanSpeed>
         </TemperatureThreshold>
         <TemperatureThreshold>
-          <UpThreshold>65</UpThreshold>
           <DownThreshold>59</DownThreshold>
-          <FanSpeed>35</FanSpeed>
-        </TemperatureThreshold>
-        <TemperatureThreshold>
-          <UpThreshold>70</UpThreshold>
-          <DownThreshold>64</DownThreshold>
+          <UpThreshold>65</UpThreshold>
           <FanSpeed>40</FanSpeed>
         </TemperatureThreshold>
         <TemperatureThreshold>
-          <UpThreshold>75</UpThreshold>
-          <DownThreshold>69</DownThreshold>
-          <FanSpeed>55</FanSpeed>
+          <DownThreshold>64</DownThreshold>
+          <UpThreshold>70</UpThreshold>
+          <FanSpeed>50</FanSpeed>
         </TemperatureThreshold>
         <TemperatureThreshold>
-          <UpThreshold>80</UpThreshold>
+          <DownThreshold>69</DownThreshold>
+          <UpThreshold>75</UpThreshold>
+          <FanSpeed>60</FanSpeed>
+        </TemperatureThreshold>
+        <TemperatureThreshold>
           <DownThreshold>74</DownThreshold>
+          <UpThreshold>80</UpThreshold>
           <FanSpeed>70</FanSpeed>
         </TemperatureThreshold>
         <TemperatureThreshold>
-          <UpThreshold>85</UpThreshold>
           <DownThreshold>79</DownThreshold>
-          <FanSpeed>85</FanSpeed>
+          <UpThreshold>85</UpThreshold>
+          <FanSpeed>80</FanSpeed>
         </TemperatureThreshold>
       </TemperatureThresholds>
       <FanSpeedPercentageOverrides>
